@@ -5006,6 +5006,12 @@ a.badge:hover {
 
 }
 
+#comment {
+    height: 151px;
+
+    width: 100%;
+}
+
 .pull-right {
   float: right;
 }
