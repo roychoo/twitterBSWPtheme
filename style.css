@@ -4974,7 +4974,7 @@ a.badge:hover {
           border-radius: 6px;
 }
 
-.comment-author .vcard {
+.comment-author {
   padding: 5px;
   margin-bottom: 5px;
   background-color: #eeeeee;
