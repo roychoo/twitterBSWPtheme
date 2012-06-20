@@ -1,7 +1,9 @@
 <?php get_header(); ?>
+
 	<div class="row">
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-		<div class='span12'>
+		<div class="span9">
+			<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+			
 			<div <?php post_class('post-unit') ?> id="post-<?php the_ID(); ?>">
 
 				<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
@@ -19,6 +21,9 @@
 				</div>
 
 			</div>
+		</div>
+		<div class="span3">
+			<?php get_sidebar(); ?>
 		</div>
 	</div>
 	<?php endwhile; ?>
