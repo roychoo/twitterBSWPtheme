@@ -4967,7 +4967,8 @@ a.badge:hover {
 .post-unit {
   padding: 20px;
   margin-bottom: 10px;
-  background-color: #eeeeee;
+  box-shadow: 0 0 24px 9px;
+  background-color: #ffffff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
           border-radius: 6px;
