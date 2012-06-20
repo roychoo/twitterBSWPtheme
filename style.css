@@ -162,7 +162,6 @@ body {
   line-height: 18px;
   color: #333333;
   background-color: #ffffff;
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIUlEQVQYlWO4emTh/6tHFv5nIASIVkiRZopsoZM19LEFAKIsM5HOS87iAAAAAElFTkSuQmCC);
 }
 
 a {
@@ -4966,19 +4965,8 @@ a.badge:hover {
 
 .post-unit {
   padding: 20px;
-  border:2px solid;
-  border-color: #DDDDDD;
   margin-bottom: 10px;
-  margin: 40px;
-  background-color: rgb(68,68,68); /* Needed for IEs */
-
-  -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-  -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-  box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
-
-  filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
-  -ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
-  zoom: 1;
+  
   background-color: #ffffff;
   -webkit-border-radius: 6px;
      -moz-border-radius: 6px;
