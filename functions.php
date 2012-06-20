@@ -10,7 +10,7 @@
         //wp_register_style( 'custom-style', plugins_url( '/css/Bootstrap-responsive.css', __FILE__ ), array(), '20120208', 'all' );  
         // or  
         // Register the style like this for a theme:  
-        wp_register_style( 'custom-style', get_template_directory_uri() . '/css/Bootstrap-responsive.css', array(), '20120208', 'all' );  
+        wp_register_style( 'custom-style', get_template_directory_uri() . '/css/bootstrap-responsive.css', array(), '20120208', 'all' );  
       
         // For either a plugin or a theme, you can then enqueue the style:  
         wp_enqueue_style( 'custom-style' );  
@@ -61,25 +61,39 @@
         wp_register_script( 'bootstrap-tab', get_template_directory_uri() . '/js/bootstrap-tab.js' );  
         wp_register_script( 'bootstrap-tooltip', get_template_directory_uri() . '/js/bootstrap-tooltip.js' );  
         wp_register_script( 'bootstrap-transition', get_template_directory_uri() . '/js/bootstrap-transition.js' );  
-        wp_register_script( 'bootstrap-tyeahead', get_template_directory_uri() . '/js/bootstrap-tyeahead.js' );  
+        wp_register_script( 'bootstrap-typeahead', get_template_directory_uri() . '/js/bootstrap-typeahead.js' );  
       
      
       
         // For either a plugin or a theme, you can then enqueue the script:  
         wp_enqueue_script('jquery');
+        wp_enqueue_script( 'bootstrap-transition' );
         wp_enqueue_script( 'bootstrap-alert' );
-        wp_enqueue_script( 'bootstrap-button' );
-        wp_enqueue_script( 'bootstrap-carousel' );
-        wp_enqueue_script( 'bootstrap-dropdown' );
         wp_enqueue_script( 'bootstrap-modal' );
-        wp_enqueue_script( 'bootstrap-popover' );
+        wp_enqueue_script( 'bootstrap-dropdown' );
         wp_enqueue_script( 'bootstrap-scrollspy' );
         wp_enqueue_script( 'bootstrap-tab' );
         wp_enqueue_script( 'bootstrap-tooltip' );
-        wp_enqueue_script( 'bootstrap-transition' );
-        wp_enqueue_script( 'bootstrap-tyeahead' );
+        wp_enqueue_script( 'bootstrap-popover' );
+        wp_enqueue_script( 'bootstrap-button' );
+        wp_enqueue_script( 'bootstrap-collapse' );
+        wp_enqueue_script( 'bootstrap-carousel' );
+        wp_enqueue_script( 'bootstrap-typeahead' );
 
     }
     add_action('wp_footer', 'add_scripts_after_footer');
 
+    function move_admin_bar() {
+        
+        echo '<style type="text/css">
+        .navbar-fixed-top {
+            top: 28px;
+        }
+        </style>';
+        
+    }
+    if ( is_user_logged_in() ) {
+        add_action( 'admin_head', 'move_admin_bar' );
+        add_action( 'wp_head', 'move_admin_bar' );
+    }
 ?>

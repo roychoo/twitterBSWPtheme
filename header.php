@@ -8,7 +8,7 @@
 	         single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
 	      elseif (is_archive()) {
 	         wp_title(''); echo ' Archive - '; }
-	      elseif (is_search()) {
+	      elseif (is_search() && false) {
 	         echo 'Search for &quot;'.wp_specialchars($s).'&quot; - '; }
 	      elseif (!(is_404()) && (is_single()) || (is_page())) {
 	         wp_title(''); echo ' - '; }
@@ -34,7 +34,15 @@
 	<link rel="shortcut icon" href="<?php bloginfo('stylesheet_directory'); ?>/images/favicon.ico" />
 	
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
-	
+  <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
 	<link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
 	<?php if ( is_singular() ) wp_enqueue_script( 'comment-reply' ); ?>
