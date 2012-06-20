@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-	<div class="row-fluid">
+	<div class="row">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class='span12'>
 			<div <?php post_class('hero-unit') ?> id="post-<?php the_ID(); ?>">
