@@ -38,7 +38,7 @@
 	<link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
   <style type="text/css">
       body {
-        padding-top: 60px;
+        padding-top: 70px;
         padding-bottom: 40px;
       }
       .sidebar-nav {
