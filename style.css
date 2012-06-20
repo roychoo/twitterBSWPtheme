@@ -5046,6 +5046,10 @@ a.badge:hover {
   padding: 15px 25px 5px;
 }
 
+.widget_search {
+  padding: 10px;
+  border-bottom: 2px solid #E5E5E5;
+}
 
 @media print {
 
