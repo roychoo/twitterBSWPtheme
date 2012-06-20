@@ -5012,6 +5012,11 @@ a.badge:hover {
     width: 100%;
 }
 
+input, select, textarea, .sticky, .taxonomy-description {
+    background-color: #eeeeee;
+    border: 1px solid #DDDDDD;
+}
+
 .pull-right {
   float: right;
 }
