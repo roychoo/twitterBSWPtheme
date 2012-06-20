@@ -4994,11 +4994,11 @@ a.badge:hover {
 }
 
 #respond {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 #respond h2 {
-  padding: 8px 20px 12px;
-  font-size: 1.5em;
+  padding: 8px 0px 12px;
+  font-size: 2em;
   font-family: 'Lobster';
   font-weight: 200;
   line-height: 1;
