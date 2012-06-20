@@ -64,7 +64,7 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
-          <div class="nav-collapse pull-right">
+          <div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
