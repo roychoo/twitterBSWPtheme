@@ -4989,6 +4989,22 @@ a.badge:hover {
   margin-bottom: 5px;
 }
 
+.commentform {
+  
+}
+
+#respond h2 {
+  margin-left: 20px;
+  float: left;
+  padding: 8px 20px 12px;
+  font-size: 13px;
+  font-family: 'Lobster';
+  font-weight: 200;
+  line-height: 1;
+  color: #EEEEEE;
+
+}
+
 .pull-right {
   float: right;
 }
