@@ -2,7 +2,7 @@
 	<div class="row">
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 		<div class='span12'>
-			<div <?php post_class('hero-unit') ?> id="post-<?php the_ID(); ?>">
+			<div <?php post_class('post-unit') ?> id="post-<?php the_ID(); ?>">
 
 				<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
 
