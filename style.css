@@ -5092,9 +5092,10 @@ a.badge:hover {
 }
 
 div.addthis_toolbox {
-  width: 96px;
+  width: 108px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 15px;
 }
 
 .widget h1,
