@@ -5082,6 +5082,11 @@ a.badge:hover {
 
 #userquote {
   text-align:center;
+  font-family:'Lobster';
+}
+
+#occupation {
+  text-align:center;
 }
 
 .widget h1,
