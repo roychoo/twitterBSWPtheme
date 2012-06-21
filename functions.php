@@ -55,7 +55,7 @@
         //wp_register_script( 'custom-script', plugins_url( '/js/custom-script.js', __FILE__ ) );  
         // or  
         // Register the script like this for a theme:  
-        wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"), false);
+        wp_register_script('jquery1.7', ("https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"), false);
         wp_register_script( 'bootstrap-alert', get_template_directory_uri() . '/js/bootstrap-alert.js' );  
         wp_register_script( 'bootstrap-button', get_template_directory_uri() . '/js/bootstrap-button.js' );  
         wp_register_script( 'bootstrap-carousel', get_template_directory_uri() . '/js/bootstrap-carousel.js' );  
@@ -72,7 +72,7 @@
      
       
         // For either a plugin or a theme, you can then enqueue the script:  
-        wp_enqueue_script('jquery');
+        wp_enqueue_script('jquery1.7');
         wp_enqueue_script( 'bootstrap-transition' );
         wp_enqueue_script( 'bootstrap-alert' );
         wp_enqueue_script( 'bootstrap-modal' );
