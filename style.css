@@ -5081,9 +5081,7 @@ a.badge:hover {
 }
 
 #userquote {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  text-align:center;
 }
 
 .widget h1,
