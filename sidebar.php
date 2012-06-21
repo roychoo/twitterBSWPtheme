@@ -6,7 +6,7 @@
 
     	<?php get_search_form(); ?>
         
-        
+        <?php userphoto_thumbnail($authordata) ?>
     	<?php wp_list_bookmarks(); ?>
     
     	<h2>Meta</h2>
