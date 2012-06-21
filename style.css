@@ -5069,7 +5069,7 @@ a.badge:hover {
 }
 #inner #searchsubmit {
     display: table-cell;
-    height: 18px;
+    margin-bottom: 4px;
 }
 
 
