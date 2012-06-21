@@ -5048,7 +5048,8 @@ a.badge:hover {
 
 .widget {
   border-bottom: 2px solid #E5E5E5;
-  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media print {
