@@ -5074,7 +5074,8 @@ a.badge:hover {
 }
 
 .textwidget {
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media print {
 
