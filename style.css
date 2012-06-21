@@ -5043,11 +5043,12 @@ a.badge:hover {
 
 #sidebar {
   background: none repeat scroll 0 0 #F5F5F5;
-  margin:0 auto;
+
 }
 
 .widget {
   border-bottom: 2px solid #E5E5E5;
+  margin:0 auto;
 }
 
 @media print {
