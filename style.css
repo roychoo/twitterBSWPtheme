@@ -5110,6 +5110,9 @@ a.badge:hover {
   text-align: center;
 }
 
+.rmvpadding {
+  padding: 0px;
+}
 
 @media print {
 
