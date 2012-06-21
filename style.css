@@ -5078,6 +5078,19 @@ a.badge:hover {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+.widget h1,
+.widget h2,
+.widget h3,
+.widget h4,
+.widget h5,
+.widget h6 {
+  font-weight: normal;
+  color: #999999;
+}
+
+
 @media print {
 
 .do-not-print { display: none; }
