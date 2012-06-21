@@ -24,7 +24,12 @@
 	  
 	  // wp_enqueue_script('jquery');
 	}*/
-	
+    function load_scripts(){
+        wp_enqueue_script('jquery');
+        //other scripts
+    }
+
+	add_action('admin_head', 'load_scripts');
 	// Clean up the <head>
 	function removeHeadLinks() {
     	remove_action('wp_head', 'rsd_link');
