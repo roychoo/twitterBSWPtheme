@@ -5092,7 +5092,7 @@ a.badge:hover {
   text-align:center;
 }
 
-#social div.addthis_toolbox {
+#social .addthis_toolbox {
   width: 108px;
   margin-left: auto;
   margin-right: auto;
