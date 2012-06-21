@@ -3,6 +3,6 @@
         
         <span><input type="text" id="text" name="s" value="" /></span>
         
-        <input type="submit" value="Search" id="searchsubmit" />
+        <input type="submit" value="Search" id="searchsubmit" class="btn btn-inverse" />
     </div>
 </form>
