@@ -64,13 +64,14 @@
             <span class="icon-bar"></span>
           </a>
           <a class="brand" href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a>
-          <div class="nav-collapse">
+          <!--<div class="nav-collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#about">About</a></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
-          </div><!--/.nav-collapse -->
+          </div>-->
+          <!--/.nav-collapse -->
         </div>
       </div>
     </div>
