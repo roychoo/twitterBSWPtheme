@@ -19,7 +19,7 @@
 	
 	// Load jQuery
 	if ( !is_admin() ) {
-        echo 'jquery is deregistered'
+        echo 'jquery is deregistered';
 	   wp_deregister_script('jquery');
 	  
 	  // wp_enqueue_script('jquery');
