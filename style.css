@@ -5073,7 +5073,9 @@ a.badge:hover {
     margin-bottom: 10px;
 }
 
-
+.textwidget {
+  margin: 0 auto;
+}
 @media print {
 
 .do-not-print { display: none; }
