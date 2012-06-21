@@ -47,7 +47,7 @@
 
     function add_scripts_after_footer() {
         // Register the script like this for a plugin:  
-        wp_register_script( 'custom-script', plugins_url( '/js/custom-script.js', __FILE__ ) );  
+        //wp_register_script( 'custom-script', plugins_url( '/js/custom-script.js', __FILE__ ) );  
         // or  
         // Register the script like this for a theme:  
         wp_register_script('jquery', ("https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"), false);
