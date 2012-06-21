@@ -5110,8 +5110,8 @@ a.badge:hover {
   text-align: center;
 }
 
-.rmvpadding a {
-  padding: 0px;
+.addthis_default_style .at300b, .addthis_default_style .at300bo, .addthis_default_style .at300m {
+    padding: 0px;
 }
 
 @media print {
