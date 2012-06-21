@@ -18,12 +18,12 @@
     add_action( 'wp_enqueue_scripts', 'wptuts_styles_with_the_lot' ); 
 	
 	// Load jQuery
-	if ( !is_admin() ) {
+	/*if ( !is_admin() ) {
         echo 'jquery is deregistered';
 	   wp_deregister_script('jquery');
 	  
 	  // wp_enqueue_script('jquery');
-	}
+	}*/
 	
 	// Clean up the <head>
 	function removeHeadLinks() {
