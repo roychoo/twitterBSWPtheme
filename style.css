@@ -5091,6 +5091,12 @@ a.badge:hover {
   text-align:center;
 }
 
+#social {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .widget h1,
 .widget h2,
 .widget h3,
