@@ -22,9 +22,9 @@
 
 			</div>
 		</div>
-		<div class="span3">
-			<?php get_sidebar(); ?>
-		</div>
+		
+		<?php get_sidebar(); ?>
+		
 	</div>
 	<?php endwhile; ?>
 
