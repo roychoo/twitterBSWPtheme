@@ -5050,6 +5050,7 @@ a.badge:hover {
   border-bottom: 2px solid #E5E5E5;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top : 15px;
 }
 
 #inner {
@@ -5069,7 +5070,7 @@ a.badge:hover {
 }
 #inner #searchsubmit {
     display: table-cell;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 
