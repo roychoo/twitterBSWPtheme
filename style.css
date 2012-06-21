@@ -5052,6 +5052,26 @@ a.badge:hover {
   padding-right: 15px;
 }
 
+#inner {
+    display: table;
+    width: 100%;
+}
+#inner label {
+    display: table-cell;
+}
+#inner span {
+    display: table-cell;
+    width: 100%;
+    padding: 0px 10px;
+}
+#inner #text {
+    width: 100%;
+}
+#inner #searchsubmit {
+    display: table-cell;
+}
+
+
 @media print {
 
 .do-not-print { display: none; }
